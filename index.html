@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Home | Happy Tails Shelter</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <!-- logo -->
+                <a href="index.html" class="logo">Portfolio</a>
+                <!-- toggle -->
+                <span class="toggle" onclick="toggleMenu()"></span>
+                <!-- nav items -->
+                <nav class="menu" onclick="toggleMenu()">
+                    <a href="index.html">Home</a>
+                    <a href="pets.html">Pets</a>
+                    <a href="mission.html">Mission</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- banner -->
+        <section class="banner" id="home" style="padding-top: 0px;">
+            <video autoplay muted loop class="background-video">
+                <source src="videos/happy_tails_banner.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- <div class="overlay" style="width: 22%;">
+                <h1>
+                    Be The Change
+                </h1>
+                <p>By making the difference</p>
+            </div> -->
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about" style="padding-top: 0px;">
+            <div class="container">
+                <div class="heading">
+                    <h2>About Us</h2>
+                </div>
+                <div class="content grid-container">
+                    <div class="contentBx">
+                        <h3>We are happy tails, where each tail is happy!</h3>
+                        <p>
+                            Welcome to Happy Tails Shelter for Dogs, a haven dedicated to providing love, care, and a second chance for our four-legged friends. Our mission is to rescue, rehabilitate, and rehome dogs of all breeds and backgrounds, ensuring they find the loving families they deserve.
+                            <br><br>
+                            Established in 2001, Happy Tails Shelter has grown into a trusted community resource, thanks to the unwavering support of volunteers, donors, and animal lovers. Our team is passionate about creating a safe and nurturing environment for every dog that comes through our doors. We believe every dog has a unique story and deserves a happy ending.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/about_us.jpg" alt="Image" class="img" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright &copy; <span id="currentYear">2024</span> All Right Reserved.</p><br>
+                    <p style="margin-top: -30px;">Made with 🤍 by Anjali, Alex, Jiril and Swayam</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- scripts -->
+        <script src="./js/main.js"></script>
+
+    </body>
+
+</html>

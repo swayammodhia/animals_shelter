@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Pets | Happy Tails Shelter</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <!-- page specific files -->
+        <style>
+            header a {
+                color: var(--dark);
+            }
+
+            .pet-name {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <!-- logo -->
+                <a href="index.html" class="logo">Portfolio</a>
+                <!-- toggle -->
+                <span class="toggle" onclick="toggleMenu()"></span>
+                <!-- nav items -->
+                <nav class="menu" onclick="toggleMenu()">
+                    <a href="index.html">Home</a>
+                    <a href="pets.html">Pets</a>
+                    <a href="mission.html">Mission</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- pets -->
+        <section class="work" id="work">
+            <div class="container">
+                <div class="heading">
+                    <h2>Meet Your Future Friend</h2>
+                    <p>
+                        These are our heroes. They are super energetic and would certainly make your day.
+                    </p>
+                </div>
+                <div class="content grid-container">
+                    <div class="workBx">
+                        <img src="images/pet_halie.jpg" alt="Image" />
+                        <p class="pet-name">Halie</p>
+                    </div>
+                    <div class="workBx">
+                        <img src="images/pet_ginger.jpg" alt="Image" />
+                        <p class="pet-name">Ginger</p>
+                    </div>
+                    <div class="workBx">
+                        <img src="images/pet_cheeky.jpg" alt="Image" />
+                        <p class="pet-name">Cheeky</p>
+                    </div>
+                    <div class="workBx">
+                        <img src="images/pet_jack.jpg" alt="Image" />
+                        <p class="pet-name">Jack</p>
+                    </div>
+                    <div class="workBx">
+                        <img src="images/pet_knuckels.jpg" alt="Image" />
+                        <p class="pet-name">Knuckels</p>
+                    </div>
+                    <div class="workBx">
+                        <img src="images/pet_moxie.jpg" alt="Image" />
+                        <p class="pet-name">Moxie</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright &copy; <span id="currentYear">2024</span> All Right Reserved.</p><br>
+                    <p style="margin-top: -30px;">Made with 🤍 by Anjali, Alex, Jiril and Swayam</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- scripts -->
+        <script src="./js/main.js"></script>
+
+    </body>
+
+</html>
